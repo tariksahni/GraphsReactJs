@@ -1,0 +1,114 @@
+.whiteCardIncomingOutbound {
+  background-color: #ffffff;
+  padding: 10px;
+  margin: 20px;
+  margin-top: 25px;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.11);
+  border-radius: 4px;
+  position: relative;
+}
+.topLabel {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+}
+
+.inboundText {
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.6px;
+  color: #505275;
+  font-family: 'San Francisco';
+  margin-left: 10px;
+  flex: 8;
+}
+
+.filterDivision {
+  flex: 1;
+}
+
+.borderLine {
+  opacity: 0.2;
+  border-bottom: solid 1px #979797;
+}
+
+.graphs {
+  margin-left: 45px;
+  margin-top: 30px;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+}
+.arrowContainer {
+  margin-left: -20px;
+}
+#progress {
+  margin-right: 15px;
+  list-style-type: none;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: flex-start;
+  text-align: center;
+}
+
+#progress li {
+  flex: 1;
+  padding: 15px 0px 15px 0px;
+  margin-top: 10px;
+  position: relative;
+  font-size: 17px;
+  font-weight: 500;
+  color: #111434;
+}
+
+.li::after {
+  content: '';
+  border-top: 25px solid transparent;
+  border-bottom: 25px solid transparent;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  z-index: 20;
+}
+
+.callsMade {
+  background-color: #c4c4c4;
+}
+
+.callsContacted {
+  background-color: #e4e4e4;
+}
+
+.salesArrow {
+  background-color: #f4f4f4;
+}
+
+.callsMade::after {
+  border-left: 25px solid #c4c4c4;
+}
+
+.callsContacted::after {
+  border-left: 25px solid #e4e4e4;
+}
+
+.surveyDataContainerOutbound {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  padding: 10px 0px 10px 0px;
+}
+
+.surveyTextOne {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  margin-right: 245px;
+}
+
+.surveyTextTwo {
+  display: flex;
+  justify-content: flex-start;
+  flex: 1;
+  margin-right: -16px;
+}

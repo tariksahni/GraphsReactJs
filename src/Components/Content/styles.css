@@ -1,0 +1,17 @@
+.containerMain {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  height: 90vh;
+}
+
+.sideBar {
+  flex: 1;
+  background-color: #0079c8;
+  overflow: auto;
+}
+.content {
+  flex: 8;
+  background-color: #f4f4f4;
+  overflow: auto;
+}

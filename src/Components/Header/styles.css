@@ -1,0 +1,78 @@
+.headerContainer {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  opacity: 0.7;
+  padding: 10px;
+}
+.titleContainer {
+  flex: 13;
+}
+
+.titleText {
+  font-size: 24px;
+  color: #0079c8;
+  font-weight: 600;
+}
+.contentNotifications {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.messagesContainer {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+}
+.notificationsContainer {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+}
+.notificationImage {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+.messageImage {
+  margin-top: 2px;
+  width: 32px;
+  height: 21px;
+  object-fit: contain;
+}
+
+#notification {
+  position: absolute;
+  background-color: red;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  top: -3px;
+  left: 19px;
+}
+
+#countNotification {
+  font-size: 13px;
+  color: white;
+  font-weight: 900;
+}
+
+#message {
+  position: absolute;
+  background-color: red;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  top: -7px;
+  left: 16px;
+  text-align: center;
+}
+
+#countMessage {
+  font-size: 13px;
+  color: white;
+  font-weight: 900;
+}

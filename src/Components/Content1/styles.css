@@ -1,0 +1,26 @@
+.containerMain {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  height: 90vh;
+}
+
+.sideBar {
+  flex: 1;
+  background-color: #0079c8;
+  overflow: auto;
+}
+.contentTwo {
+  flex: 8;
+  background-color: #f4f4f4;
+  overflow: auto;
+  align-items: center;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.comimgSoonText {
+  font-size: 80px;
+  color: #0079c8;
+}

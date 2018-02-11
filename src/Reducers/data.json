@@ -1,0 +1,13 @@
+[
+  [
+    { "name": "Digital", "numberOfCalls": 20 },
+    { "name": "DM", "numberOfCalls": 25 },
+    { "name": "DRTV", "numberOfCalls": 37 },
+    { "name": "Unattr", "numberOfCalls": 22 }
+  ],
+  [
+    { "name": "Indiv", "numberOfCalls": 1190 },
+    { "name": "SG", "numberOfCalls": 563 },
+    { "name": "LG", "numberOfCalls": 163 }
+  ]
+]
